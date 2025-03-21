@@ -23,7 +23,7 @@ const generateDummyData = () => {
     }));
   };
 
-  app.post("/generate-data", async (req, res) => {
+  app.get("/generate-data", async (req, res) => {
     console.log(req.body);
     
     try {
